@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2489e776.chunk.css",
+    "main.js": "/static/js/main.f991029a.chunk.js",
+    "main.js.map": "/static/js/main.f991029a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5915ea6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5915ea6.js.map",
+    "static/js/2.cf35cc8c.chunk.js": "/static/js/2.cf35cc8c.chunk.js",
+    "static/js/2.cf35cc8c.chunk.js.map": "/static/js/2.cf35cc8c.chunk.js.map",
+    "static/js/3.3f31774d.chunk.js": "/static/js/3.3f31774d.chunk.js",
+    "static/js/3.3f31774d.chunk.js.map": "/static/js/3.3f31774d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2489e776.chunk.css.map": "/static/css/main.2489e776.chunk.css.map",
+    "static/js/2.cf35cc8c.chunk.js.LICENSE.txt": "/static/js/2.cf35cc8c.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/SourceCodePro-Regular.70cc7ff2.ttf",
+    "static/media/Signal-Logo.svg": "/static/media/Signal-Logo.b7dcab06.svg",
+    "static/media/Telegram-Logo.svg": "/static/media/Telegram-Logo.28141391.svg",
+    "static/media/Threema-Logo.svg": "/static/media/Threema-Logo.7870bc6b.svg",
+    "static/media/Viber-Logo.svg": "/static/media/Viber-Logo.421d0eac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5915ea6.js",
+    "static/js/2.cf35cc8c.chunk.js",
+    "static/css/main.2489e776.chunk.css",
+    "static/js/main.f991029a.chunk.js"
+  ]
+}
