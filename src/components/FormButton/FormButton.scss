@@ -1,0 +1,19 @@
+@import '../../theme.scss';
+
+.FormButton {
+  appearance: none;
+  outline: 0;
+  background-color: $on-primary;
+  border: 0;
+  padding: 10px 15px;
+  color: $primary;
+  border-radius: 3px;
+  min-width: 250px;
+  cursor: pointer;
+  font-size: 2em;
+  transition-duration: 0.25s;
+  
+  &:hover{
+    background-color: rgba($on-primary, 0.85);
+  }
+}

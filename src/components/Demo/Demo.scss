@@ -1,0 +1,47 @@
+$margin: 0%;
+
+.Demo-Container {
+  width: 100%;
+  height: 100%;
+}
+
+.Demo-CloudContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Demo-Controls {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Demo-Messenger {
+  width: 30%;
+  height: 50%;
+  position: absolute;  
+}
+
+.Demo-TopLeft {
+  top: $margin;
+  left: $margin;
+}
+
+.Demo-TopRight {
+  top: $margin;
+  right: $margin;
+}
+
+.Demo-BottomLeft {
+  bottom: $margin;
+  left: $margin;
+}
+
+.Demo-BottomRight {
+  bottom: $margin;
+  right: $margin;
+}

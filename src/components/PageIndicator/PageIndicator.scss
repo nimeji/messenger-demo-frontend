@@ -1,0 +1,54 @@
+@import '../../theme.scss';
+
+.PageIndicator-Container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.PageIndicator-PageButton {
+  width: 30px;
+  height: 30px;
+  background-color: $background;
+  border: 2px $secondary;
+  border-radius: 50%;
+  border-style: solid;
+  margin: 5px;
+
+  &:hover {
+    background-color: $secondary;
+  }
+}
+
+.PageIndicator-PageButtonSelected {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:hover {
+    background-color: $primary;
+  }
+}
+
+.PageIndicator-Control {
+  width: 30px;
+  height: 30px;
+  background-color: $background; 
+  border: none;
+  margin: 5px;
+
+  stroke: $secondary;
+  color: $secondary;
+
+  &:hover {
+    stroke: $primary;
+    color: $primary;
+  }
+}
+
+.PageIndicator-Chevron {
+  height: 100%;
+  width: 100%;
+  stroke-width: 3px;
+}
+

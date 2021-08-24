@@ -1,0 +1,77 @@
+@import-normalize;
+
+@font-face {
+  font-family: 'OpenSans';
+  src:  local('OpenSans'),
+        url('./assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src:  local('OpenSans-Italic'),
+        url('./assets/fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src:  local('OpenSans-Bold'),
+        url('./assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src:  local('OpenSans-BoldItalic'),
+        url('./assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src:  local('OpenSans-ExtraBold'),
+        url('./assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-ExtraBoldItalic';
+  src:  local('OpenSans-ExtraBoldItalic'),
+        url('./assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src:  local('OpenSans-Light'),
+        url('./assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src:  local('OpenSans-LightItalic'),
+        url('./assets/fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src:  local('OpenSans-SemiBold'),
+        url('./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-SemiBoldItalic';
+  src:  local('OpenSans-SemiBoldItalic'),
+        url('./assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src:  local('RobotoMono'),
+        url('./assets/fonts/Roboto_Mono/RobotoMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src:  local('SourceCodePro'),
+        url('./assets/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'OpenSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

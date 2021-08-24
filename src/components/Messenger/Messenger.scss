@@ -1,0 +1,45 @@
+.Messenger-Container {
+  width: 100%;
+  padding-top: percentage($number: 19/29);
+  position: relative;
+}
+
+.Messenger-Cloud {
+  position: absolute;
+  top: 0;
+}
+
+.Messenger-SVGTitle {
+  font-family: 'OpenSans-Bold';
+  font-size: 2.5px;
+  text-anchor: middle;
+}
+
+.Messenger-SVGSubtitle {
+  font-family: 'OpenSans';
+  font-size: 1.5px;
+  text-anchor: start;
+}
+
+.Messenger-Content {
+  position: absolute;
+  top: 47%;
+  bottom: 10%;
+  left: 15%;
+  right: 15%;
+}
+
+.Messenger-AddressBook {
+  position: absolute;
+  bottom: 0%;
+}
+
+.Messenger-AddressBook-Left {
+  left: 0%;
+  right: 55%;
+}
+
+.Messenger-AddressBook-Right {
+  left: 55%;
+  right: 0%;
+}

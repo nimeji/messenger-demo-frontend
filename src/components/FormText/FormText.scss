@@ -1,0 +1,19 @@
+@import '../../theme.scss';
+
+.FormText {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid rgba($on-primary, 0.5);
+  background-color: rgba($on-primary, 0.2);
+  min-width: 250px;
+  min-height: 2em;
+  line-height: 1.25;
+  
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'OpenSans';
+  
+  color: $on-primary;
+}

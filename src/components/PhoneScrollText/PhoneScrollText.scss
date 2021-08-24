@@ -1,0 +1,38 @@
+
+.PhoneScrollText-Wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.PhoneScrollText-TextContainer {
+  position: absolute;
+  height: 60%;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  border: 2px solid rgba(white, 0.8);
+
+  overflow: hidden;
+
+  fill: rgba(white, 0.8);
+
+
+  text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
+
+.PhoneScrollText-Phone {
+  position: absolute;
+  top: 65%;
+  height: 35%;
+  width: auto;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  fill: rgba(white, 0.8);
+}

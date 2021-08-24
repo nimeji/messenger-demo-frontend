@@ -1,0 +1,31 @@
+@import '../../theme.scss';
+
+.OutroPage-Container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.OutroPage-TextBox {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    margin: 0 0;
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+.OutroPage-Button {
+  position: absolute;
+
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  
+  color: $on-primary;
+  font-size: 3em;
+}

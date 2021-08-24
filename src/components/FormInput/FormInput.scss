@@ -1,0 +1,68 @@
+@import '../../theme.scss';
+
+.FormInput {
+  display: block;
+  box-sizing: border-box;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba($on-primary, 0.5);
+  background-color: rgba($on-primary, 0.2);
+  min-width: 250px;
+  
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'OpenSans';
+  
+  color: $on-primary;
+  
+  transition-duration: 0.25s;
+  
+  &::-webkit-input-placeholder {
+    color: $on-primary;
+    opacity: 0.8;
+  }
+  &:-ms-input-placeholder {
+    color: $on-primary;
+    opacity: 0.8;
+  }
+  &::-moz-placeholder {
+    color: $on-primary;
+    opacity: 0.8;
+  }
+  &:-moz-placeholder {
+    color: $on-primary;
+    opacity: 0.8;
+  }
+  &::placeholder {
+    color: $on-primary;
+    opacity: 0.8;
+  }
+
+  &:hover{
+    background-color: rgba($on-primary, 0.4);
+  }
+  
+  &:focus{
+    background-color: $background;
+    
+    color: $primary;
+
+    &::-webkit-input-placeholder {
+      opacity: 0;
+    }
+    &:-ms-input-placeholder {
+      opacity: 0;
+    }
+    &::-moz-placeholder {
+      opacity: 0;
+    }
+    &:-moz-placeholder {
+      opacity: 0;
+    }
+    &::placeholder {
+      opacity: 0;
+    }
+  }
+}
